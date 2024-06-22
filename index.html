@@ -1,0 +1,294 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/
+f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          class="header-icon"
+          src="assets/header-icon.png"
+          alt=""
+        />
+        <h3 class="title"><a href="index.html">Cobee The Coder</a></h3>
+        <nav>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- <button>Show Modal</button>
+    <div class="modal-container">
+      <div class="modal">
+        <h3>This is Modal</h3>
+        <span>x</span>
+      </div>
+    </div> -->
+
+    <main>
+      <section id="jumbotron">
+        <div class="jumbotron">
+          <h1 data-aos="flip-up" class="jumbotron-title" 
+          onmouseover="changeText(this)"
+          onmouseout="changeTextBack(this)">Get Programming Tips Here!</h1>
+          <div class="header-flex">
+            <div>
+              <h2 class="jumbotron-text">
+                Just new in programming world?
+                <br />
+                Let's Start with Creating Simple
+                <span style="color: #f4a261">Game and Website!</span>
+              </h2>
+              <div class="mini-text-flex">
+                <p class="mini-text">Learn Basic Programming here</p>
+                <button id="icon-up" onclick="changeText()">
+                  <i class="far fa-hand-point-up"></i>
+                </button>
+                <button id="icon-down" class="icon-down">
+                  <i class="far fa-hand-point-down" onclick="changeText()"></i>
+                </button>
+              </div>
+            </div>
+            <div>
+              <img
+                class="jumbotron-img"
+                src="https://i0.wp.com/timedooracademy.com/wp-content/uploads/2022/10/Kelapa-Gading.jpeg"
+                alt="gambar"
+                width="auto"
+                height="300"
+                onmouseover="changeImage(this)"
+                onmouseout="changeImageBack(this)"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L30,42.7C60,53,120,75,180,96C240,117,300,139,360,138.7C420,139,480,117,540,101.3C600,85,660,75,720,74.7C780,75,840,85,900,128C960,171,1020,245,1080,272C1140,299,1200,277,1260,266.7C1320,256,1380,256,1410,256L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="beige" fill-opacity="1" d="M0,32L30,42.7C60,53,120,75,180,96C240,117,300,139,360,138.7C420,139,480,117,540,101.3C600,85,660,75,720,74.7C780,75,840,85,900,128C960,171,1020,245,1080,272C1140,299,1200,277,1260,266.7C1320,256,1380,256,1410,256L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      <section id="slider" class="section-slider">
+        <div data-aos="zoom-out" class="image-slider">
+          <div class="slide active">
+            <img src="https://i.pinimg.com/564x/6b/65/15/6b6515f08ea9bbd35b3716f0d979fb27.jpg" alt="" />
+            <div class="slide-text">
+              <h2>Game Development</h2>
+              <p>
+                Instead of playing game all day long, why not create your own?
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="https://i.pinimg.com/564x/6d/e1/5b/6de15b8c3e7ac5311dd061419bc5564c.jpg" alt="" />
+            <div class="slide-text">
+              <h2>Game Development</h2>
+              <p>
+                Instead of playing game all day long, why not create your own?
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="https://i.pinimg.com/564x/d1/39/18/d13918dd52f81bacf2560c7af4e16edc.jpg" alt="" />
+            <div class="slide-text">
+              <h2>Game Development</h2>
+              <p>
+                Instead of playing game all day long, why not create your own?
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="https://i.pinimg.com/564x/ae/d6/a5/aed6a50c4b37373f369ffeee62d09610.jpg" alt="" />
+            <div class="slide-text">
+              <h2>Game Development</h2>
+              <p>
+                Instead of playing game all day long, why not create your own?
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="https://i.pinimg.com/564x/7d/16/40/7d16405ecd560c3295bb98f061cec1a6.jpg" alt="" />
+            <div class="slide-text">
+              <h2>Game Development</h2>
+              <p>
+                Instead of playing game all day long, why not create your own?
+              </p>
+            </div>
+          </div>
+
+          <!-- Copy paste div class slide di atas (tanpa kata active) sampai ada 5 buah div -->
+          <div class="navigation">
+            <div class="slider-btn active"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+          </div>
+        </div>
+      </section>
+      <div class="main-content">
+        <aside>
+          <div class="profile">
+            <h3 class="aside-title">It's Cobee</h3>
+            <img
+              class="profile-picture"
+              src="assets/cobee.png"
+              alt="Cobee"
+              width="150px"
+              height="auto"
+            />
+            <div class="toggle">
+              <button class="btn" id="green">
+                <i class="fa fa-thumbs-up fa-lg"></i>
+              </button>
+              <button class="btn" id="red">
+                <i class="fa fa-thumbs-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        <div class="content">
+          <article id="my-project">
+            <h3 class="article-title">My Project</h3>
+            <div class="project-container">
+              <div data-aos="fade-right" class="project">
+                <img
+                  src="https://i.pinimg.com/564x/a6/a5/bb/a6a5bba86743c42b1b587384a57e0487.jpg"
+                  alt="Lover"
+                  width="300px"
+                  height="300px"
+                />
+                <h4 class="project-title">Lover</h4>
+                <p class="project-description">
+                  Desert Rally Game is using Scratch 3 as a platform
+                </p>
+              </div>
+              <div data-aos="fade-left" class="project">
+                <img
+                  src="https://i.pinimg.com/736x/a7/0f/0b/a70f0b64fa718b20694b91f67c710bd4.jpg"
+                  alt="1989"
+                  width="300px"
+                  height="300px"
+                />
+                <h4 class="project-title">1989</h4>
+                <p class="project-description">
+                  Memory Game is using Phaser as a Javascript Framework
+                </p>
+              </div>
+            </div>
+            
+            <div class="project-container">
+              <div data-aos="fade-right" class="project">
+                <img
+                  src="https://i.pinimg.com/736x/e4/55/72/e4557239bdde38793e08fb382a2f6441.jpg"
+                  alt="Speak Now"
+                  width="300px"
+                  height="300px"
+                />
+                <h4 class="project-title">Speak Now</h4>
+                <p class="project-description">
+                  Platformer Game is using Construct 3 as a platform
+                </p>
+              </div>
+              <div data-aos="fade-left" class="project">
+                <img
+                  src="https://i.pinimg.com/564x/65/f4/5e/65f45e11823829d4b4d2145025022042.jpg"
+                  alt="Reputation"
+                  width="300px"
+                  height="300px"
+                />
+                <h4 class="project-title">Reputation</h4>
+                <p class="project-description">
+                  E-commerce Website for Flowers and Bouquet Shop
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article id="video">
+            <div class="item-video">
+              <h3 data-aos="fade-up" class="article-title">What is Coding?</h3>
+              <iframe
+                class="video-content"
+                width="700px"
+                height="400px"
+                src="https://www.youtube.com/embed/XMZFUnAgOqs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+
+              <h3 data-aos="fade-up" class="article-title">Coding is Not Difficult !</h3>
+              <iframe
+                class="video-content"
+                width="700px"
+                height="400px"
+                src="https://www.youtube.com/embed/hb7Q33ysCwI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+
+          <article id="maps">
+            <div class="maps">
+              <h3 class="article-title">Location</h3>
+              <div class="location">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.1041217472043!2d115.23826581416502!3d-8.681647890800283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1622688384272!5m2!1sen!2sid"
+                  width="500"
+                  height="350"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+                <div class="maps-text">
+                  <!-- <h3>Timedoor Coding Academy</h3>
+                                <p>Timedoor Coding Academy adalah bagian dari PT Timedoor Indonesia, <br>
+                                tempat penulis belajar konsep programming sehingga bisa membuat Blog ini.</p> -->
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </main>
+    
+    <footer>
+      <div data-aos="fade-up" class="main-footer">
+        <h3 class="info-top">Cobee The Junior Programmer</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2021. Cobee. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
