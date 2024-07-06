@@ -109,3 +109,28 @@ if (btnSubmit){
     next.setAttribute("value", "https://selmaleeyablog.netlify.app/contact.html");
   });
 }
+
+var splash = document.querySelector(".splash");
+if(splash){
+document.addEventListener("DOMContentLoaded",
+function(event){
+setTimeout(function(){
+splash.style.display = "none"
+}, 3000);
+});
+}
+var animate = document.querySelector(".astronaut-takeoff");
+if(animate){
+document.addEventListener(
+"DOMContentLoaded", function(event){
+setTimeout(function(){
+animate.classList.add("animation")
+}, 400);
+});
+}
+var splashText = document.querySelector(".splash-text");
+if(splashText){
+setTimeout(function(){
+splashText.innerHTML = "Come in!"
+}, 2000);
+}
